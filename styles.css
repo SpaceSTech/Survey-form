@@ -1,0 +1,61 @@
+body{
+    background-color: #1b1b32;
+    color: white;
+    margin: 0 auto;
+    font-size: 1.2em;
+    font-family: tahoma;
+}
+h1, p{
+    text-align: center;
+    margin:1em auto;
+}
+input, textarea, select{
+    width: 100%;
+    min-height: 2em;
+    margin: 0.5em 0;
+    border-radius: 5px;
+    
+}
+textarea, select{
+    font: 1em sans-serif;
+}
+fieldset{
+    background-color: #0A0A23;
+    padding:1em 3em;
+    border: none;
+    width: 50%;
+    min-width: 600px;
+    margin: 0 auto;
+    
+    
+}
+.submitbtn{
+    color: white;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 6px;
+    background-color: #3b3b4f;
+    display: block;
+    margin: 1em auto;
+    height: 3em;
+    border:1px solid white;
+    font-size: 1.2rem;
+    min-width: 300px;
+}
+.submitbtn:hover{
+    color: #0A0A23;
+    background-color: aliceblue;
+    transform: scale(10deg);
+    border: 1px solid black;
+
+}
+label{
+    display: block;
+    padding: 0.5em 0;
+}
+
+.recommend, .skills{
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <h1>Spaceship Survey Form</h1>
+    <p><em>Thank you for taking the time to help complete the survey</em></p>
+    <!-- begining of form -->
+    <form action="">
+      <fieldset>
+        <label for="text">First Name: <input type="text" /></label>
+        <label for="text">Last Name: <input type="text" /></label>
+        <label for="email">Email Address: <input type="email" /></label>
+        <label for="tel">Age(optional): <input type="number" min="18" /></label>
+        <label for=""
+          >Which of our services do you enjoy most?
+          <select name="referrer">
+            <option value="services">Web design & development</option>
+            <option value="services">UI/UX design</option>
+            <option value="services">Digital Marketing</option>
+            <option value="services">Plugin/Api integraton</option>
+            <option value="services">Software development</option>
+            <option value="services">Mobile app developmnet</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for=""
+          >Would you recommend SpaceShip digital to your friends?</label
+        >
+        <label for=""
+          ><input class="recommend" type="radio" name="account-type" />Strongly
+          Recommend</label
+        >
+        <label for=""
+          ><input
+            class="recommend"
+            type="radio"
+            name="account-type"
+          />Maybe</label
+        >
+        <label for=""
+          ><input class="recommend" type="radio" name="account-type" />Not too
+          sure</label
+        >
+        <label for=""
+          >What is your favourite feature of our firm?
+          <select name="feature">
+            <option value="feature">Mentorship</option>
+            <option value="feature">Community</option>
+            <option value="feature">Open Source</option>
+            <option value="feature">Internsihip</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="">What would you like us to improve?</label>
+        <label for=""
+          ><input
+            class="skills"
+            type="checkbox"
+            name="improve service"
+          />Front-end Projects</label
+        >
+        <label for=""
+          ><input
+            class="skills"
+            type="checkbox"
+            name="improve service"
+          />Back-end Projects</label
+        >
+        <label for=""
+          ><input
+            class="skills"
+            type="checkbox"
+            name="improve service"
+          />Software development</label
+        >
+        <label for=""
+          ><input class="skills" type="checkbox" name="improve service" />App
+          testing</label
+        >
+        <label for=""
+          >How we can serve you better? Kindly leave your suggestions or
+          comments
+        </label> 
+        <textarea
+          name="comments"
+          id="comments"
+          cols="30"
+          rows="5"
+          placeholder="Leave your comments here..."
+        ></textarea>
+      </fieldset>
+      <input type="submit" value="Submit Form" class="submitbtn" />
+    </form>
+
+  
+  </body>
+</html>
